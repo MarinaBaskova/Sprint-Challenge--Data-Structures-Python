@@ -36,7 +36,6 @@ f.close()
 
 # v4 Stretch
 for i in range(len(names_1)):
-    # if the el exist in list 2
     is_unique_element = names_1[i] not in names_2
     if is_unique_element:
         names_1[i] = None
